@@ -10,7 +10,7 @@ html {
 body
 {
     background:cornflowerblue;
-    padding-top: 130px;
+    padding-top: 180px;
     padding-bottom: 40px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -21,9 +21,7 @@ ul li
     list-style-type: none;
 }
 
-h2{
-    text-align: center;
-}
+
 
 /*header element selector that holds the header content.*/
 
@@ -43,6 +41,7 @@ header
     height: 110px;
     position:fixed;
     top:0;
+    
 }
 footer
 {
@@ -50,6 +49,16 @@ footer
     position:absolute;
     bottom:0;
 }  
+
+#greetings
+{
+    width:600px;
+    margin:0 auto;
+    color: rgb(12, 31, 139);
+    font-size: 1.2em;
+
+}
+
 
 .containerParent
 {
@@ -76,14 +85,22 @@ button
     width:100%;
 }
 
+#h1-nav
+{
+    position:absolute;
+    left:42%;
+}
+
+
+
 #left-nav
 {
-    float: left;
+    position:absolute;
 }
+
 
 #left-nav img
 {
-    position:absolute;
     left:0;
     height: 100px;
     width: 150px;
@@ -92,26 +109,44 @@ button
 #right-nav
 {
     float:right;
+    font-size: 25px;
 }
 
 
 
 /*each list item display in same line, with a centered margin and some padding.*/
+#left-nav li
+{
+    display:inline-block;
+}
+
 
 #right-nav li
 {
     display:inline-block;
     margin: auto;
     padding:15px;
-
 }
 
-h1{
-    margin:auto;
-    color: #fff;
-    font-size: 50px;
+h2,h3{
+    color: #26e25e;
+    text-align: center;
 }
 
+h1
+{
+    text-align: center;
+    font-size: 30px;
+    top:50px;
+}
+
+h2{
+    font-size: 27px;
+}
+
+h3{
+    font-size: 25px;
+}
 /*this allows me to modify the style of the links on page*/
 
 a
