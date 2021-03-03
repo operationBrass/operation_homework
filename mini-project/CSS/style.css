@@ -1,0 +1,100 @@
+/*add background to body and change margin and padding to 0 to 
+remove space around the header/footer*
+the padding-bottom allows all the main section to be displayed and does not get cut off by the footer..*/
+
+html,body
+{
+    height:100%;
+}
+
+body
+{
+    background:cornflowerblue;
+    margin: 0;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+/*remove the bullet points from the list items*/
+ul li
+{
+    list-style-type: none;
+}
+
+/*header element selector that holds the header content.*/
+
+header, footer
+{
+    
+    background: darkblue;
+    padding: 10px;
+    color:#fff;
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    left:0;
+
+}
+
+
+header
+{
+    top:0;
+}
+footer
+{
+    bottom:0;
+}  
+
+
+.container
+{
+   width: 250px;
+   margin: 10px auto;
+   clear:both;
+   text-align: left;
+}
+
+.container input
+{
+    clear:both;
+    width:100%;
+}
+
+#left-nav
+{
+    float: left;
+}
+
+#right-nav
+{
+    float:right;
+}
+
+
+
+/*each list item display in same line, with a centered margin and some padding.*/
+
+#right-nav li
+{
+    display:inline-block;
+    margin: auto;
+    padding:15px;
+
+}
+
+h1{
+    margin:auto;
+    color: #fff;
+    font-size: 50px;
+}
+
+/*this allows me to modify the style of the links on page*/
+
+a
+{
+    color: white;
+    text-decoration: none;
+
+}
+
